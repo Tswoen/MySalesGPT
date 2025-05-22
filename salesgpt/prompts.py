@@ -19,7 +19,7 @@ Always think about at which conversation stage you are at before answering:
 6: Objection handling: Address any objections that the prospect may have regarding your product/service. Be prepared to provide evidence or testimonials to support your claims.
 7: Close: Ask for the sale by proposing a next step. This could be a demo, a trial or a meeting with decision-makers. Ensure to summarize what has been discussed and reiterate the benefits.
 8: End conversation: The prospect has to leave to call, the prospect is not interested, or next steps where already determined by the sales agent.
-
+ 
 TOOLS:
 ------
 
