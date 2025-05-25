@@ -163,10 +163,10 @@ class SalesGPT(Chain):
                     ]
                 ),
             },
-            return_only_outputs=False,
+            return_only_outputs=True,
         )
         print("Stage analyzer output")
-        print(stage_analyzer_output)
+        # print(stage_analyzer_output)
         self.conversation_stage_id = stage_analyzer_output.get("text")
 
         self.current_conversation_stage = self.retrieve_conversation_stage(
@@ -521,6 +521,8 @@ class SalesGPT(Chain):
                 inputs, return_intermediate_steps=True
             )
             output = ai_message["text"]
+
+        print(f"\n\nQwen:{output}\n\n")
 
         # Add agent's response to conversation history
         agent_name = self.salesperson_name

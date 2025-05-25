@@ -1,4 +1,4 @@
-from langchain.chains import LLMChain
+from langchain.chains.llm import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain_community.chat_models import ChatLiteLLM
 

@@ -1,14 +1,14 @@
 import json
 import os
 
-import boto3
-import requests
+# import boto3
+# import requests
 from langchain.agents import Tool
 from langchain.chains import RetrievalQA
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.chat_models import BedrockChat
 from langchain_community.vectorstores import Chroma
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+# from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from litellm import completion
 import smtplib
 from email.mime.multipart import MIMEMultipart
